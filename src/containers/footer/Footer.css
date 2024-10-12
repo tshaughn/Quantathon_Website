@@ -1,0 +1,9 @@
+.acm__footer {
+    background-color: #1b0064;
+    padding: 6rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}

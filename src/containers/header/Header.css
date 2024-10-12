@@ -1,0 +1,128 @@
+.acm__header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 67px;
+    background-color: #000b31;
+    /* clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%); */
+}
+
+
+.acm__header-welcome {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6rem 2rem;
+    
+}
+.acm__header-video {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    filter: opacity(0.2) blur(5px);
+}
+
+.acm__header-welcome_logo {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    padding-right: 1rem;
+}
+
+.acm__header-welcome_logo img {
+    width: 470px;
+    height: 200px;
+}
+
+.acm__header-welcome_description {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-left: solid white 5px;
+    padding-left: 1rem;
+}
+
+.acm__header-welcome_description div {
+    display: flex;
+    text-align: start;
+    font-family: var(--font-family);
+    color: white;
+    margin-top: 1rem;
+}
+
+.acm__header-welcome_description-message {
+    font-size: 2.5rem;
+    font-weight: 200;
+    
+}
+
+.acm__header-welcome_description-welcome {
+    font-size: 4.5rem;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 1150px) {
+    .acm__header-welcome_description-message {
+        font-size: 2rem;        
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .acm__header-welcome_description-message {
+        font-size: 2rem;        
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .acm__header-welcome_description div {
+        max-width: 350px;
+    }
+    .acm__header-welcome_description-message {
+        font-size: 1.5rem;        
+    }  
+    .acm__header-welcome_description-welcome {
+        font-size: 3.75rem;
+        font-weight: 300;
+    }
+    .acm__header-welcome_logo img {
+        width: 350px;
+        height: 150px;
+    
+    } 
+}
+
+@media screen and (max-width: 760px) {
+    .acm__header-welcome {
+        flex-direction: column;
+        padding: 4rem 2rem;
+    }   
+    .acm__header-welcome_logo {
+        width: auto;
+        padding-right: 0;
+    }
+    
+    .acm__header-welcome_description {
+        width: auto;
+        border-left: transparent;
+        padding-left: 0;
+    }
+    
+    .acm__header-welcome_description div {
+        text-align: center;
+        margin-top: 2rem;
+    }
+    
+    .acm__header-welcome_description-message {
+        font-size: 2.5rem;
+        font-weight: 200;
+        
+    }
+    
+    .acm__header-welcome_description-welcome {
+        font-size: 4.5rem;
+        font-weight: 300;
+    }
+}
+

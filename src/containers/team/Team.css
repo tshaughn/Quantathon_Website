@@ -1,0 +1,48 @@
+.acm__team {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+} 
+
+.acm__team-title {
+    color: #aa00ff;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: var(--heading-font-size);
+} 
+
+.acm__team-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.acm__team-container_panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+
+.acm__team-container_panel-image img {
+    width: 225px;
+    height: 225px;
+}
+
+.acm__team-container_panel-name {
+    color: #aa00ff;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.acm__team-container_panel-position,
+.acm__team-container_panel-gradYear,
+.acm__team-container_panel-major {
+    font-family: var(--font-family);
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 24px;
+}

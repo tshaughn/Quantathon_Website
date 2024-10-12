@@ -1,0 +1,161 @@
+.acm__join {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.acm__join-title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: var(--heading-font-size);
+    margin: 2rem 0rem;
+    color: #FFB800;
+}
+
+.acm__join-subtitle {
+    font-family: var(--font-family);
+    font-size: var(--subheading-font-size);
+    font-weight: 300;
+}
+
+.acm__join-social {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin: 3rem 0;
+}
+
+.acm__join-discord,
+.acm__join-instagram {
+    display: flex;
+    padding: 3rem;
+    background-color: #F7F7F7;
+}
+
+.acm__join-discord_top img,
+.acm__join-instagram_top img {
+    height: 250px;
+    width: auto;
+}
+
+
+.acm__join-discord_top p {
+    color: #182CFF;
+    text-decoration: underline;
+}
+
+.acm__join-instagram_top p {
+    color: #FF424E;
+    text-decoration: underline;
+}
+
+.acm__join-discord_top,
+.acm__join-instagram_top {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    align-items: center;
+    gap: 2rem;
+    cursor: pointer;
+}
+
+
+.acm__join-discord_bottom-sect,
+.acm__join-instagram_bottom-sect {
+    display: flex;
+    flex-direction: column;
+}
+
+.acm__join-discord_bottom,
+.acm__join-instagram_bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.acm__join-discord_bottom {
+    border-left: solid black 2px;
+    margin-left: 2rem;
+    padding-left: 2rem;
+}
+
+.acm__join-instagram_bottom {
+    border-right: solid black 2px;
+    margin-right: 2rem;
+    padding-right: 2rem;
+}
+
+.acm__join-discord_bottom-sect p:first-of-type,
+.acm__join-instagram_bottom-sect p:first-of-type {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 0.5rem;
+}
+
+.acm__join-discord_bottom-sect p:nth-of-type(2),
+.acm__join-instagram_bottom-sect p:nth-of-type(2) {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .acm__join-discord_bottom-sect p:first-of-type,
+    .acm__join-instagram_bottom-sect p:first-of-type {
+        font-size: 22px;
+    }
+
+    .acm__join-discord_bottom-sect p:nth-of-type(2),
+    .acm__join-instagram_bottom-sect p:nth-of-type(2) {
+        font-size: 15px;
+    }
+
+    .acm__join-discord_top img,
+    .acm__join-instagram_top img {
+        height: 200px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .acm__join-social {
+        align-items: center;
+        gap: 4rem;
+    }
+
+    .acm__join-discord,
+    .acm__join-instagram {
+        justify-content: center;
+        align-items: center;
+        padding: 2.5rem 5rem 1.5rem;
+        max-width: 400px;
+    }
+
+    .acm__join-discord {
+        flex-direction: column;
+    }
+
+    .acm__join-instagram {
+        flex-direction: column-reverse;
+    }
+
+    .acm__join-discord_bottom, 
+    .acm__join-instagram_bottom {
+        border: transparent;
+        border-top: solid black 2px;
+        margin: 1.5rem 0 0 0;
+        padding: 1.5rem 0 0 0;
+    }
+
+    .acm__join-discord_top img,
+    .acm__join-instagram_top img {
+        height: 250px;
+        width: auto;
+    }
+}
+
+
