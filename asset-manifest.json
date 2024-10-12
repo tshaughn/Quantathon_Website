@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Quantathon_Website/static/css/main.044336e8.css",
-    "main.js": "/Quantathon_Website/static/js/main.03859681.js",
+    "main.css": "/Quantathon_Website/static/css/main.86a6625f.css",
+    "main.js": "/Quantathon_Website/static/js/main.334441b8.js",
     "static/media/Header_BG.mp4": "/Quantathon_Website/static/media/Header_BG.6ce145c4e7c1a28964a0.mp4",
     "static/media/Kevin.png": "/Quantathon_Website/static/media/Kevin.d0491b9421c8e5c0a4cd.png",
     "static/media/Max.jpg": "/Quantathon_Website/static/media/Max.ec05d7d07c8779663563.jpg",
@@ -9,11 +9,11 @@
     "static/media/quantumImg.webp": "/Quantathon_Website/static/media/quantumImg.a3d320156b9479b6823c.webp",
     "static/media/BlueLogo.png": "/Quantathon_Website/static/media/BlueLogo.e9fddba30569b0742dd7.png",
     "index.html": "/Quantathon_Website/index.html",
-    "main.044336e8.css.map": "/Quantathon_Website/static/css/main.044336e8.css.map",
-    "main.03859681.js.map": "/Quantathon_Website/static/js/main.03859681.js.map"
+    "main.86a6625f.css.map": "/Quantathon_Website/static/css/main.86a6625f.css.map",
+    "main.334441b8.js.map": "/Quantathon_Website/static/js/main.334441b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.044336e8.css",
-    "static/js/main.03859681.js"
+    "static/css/main.86a6625f.css",
+    "static/js/main.334441b8.js"
   ]
 }
