@@ -50,7 +50,7 @@
     flex-direction: column;
 }
 
-.acm__navbar-menu_drop-down div:nth-child(-n+4) { 
+.acm__navbar-menu_drop-down div:nth-child(-n+3) { 
     display: flex;
     background-color: white;
     justify-content: center;
