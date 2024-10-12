@@ -14,8 +14,7 @@ const Navbar = () => {
                 </a>
                 <div>
                     <ul className='acm__navbar-links'>
-                        <li><a href='#Join'>Join</a></li>
-                        <li><a href='#About'>About</a></li>
+                        <li><a href='#Join'>Solutions</a></li>
                         <li><a href='#Team'>Team</a></li>
                         <li><a href='#Contact'>Contact</a></li>
                     </ul>

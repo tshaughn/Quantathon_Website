@@ -9,7 +9,7 @@
     font-weight: 700;
     font-size: var(--heading-font-size);
     margin: 2rem 0rem;
-    color: #FFB800;
+    color: #10008d;
 }
 
 .acm__join-subtitle {
@@ -34,19 +34,18 @@
 
 .acm__join-discord_top img,
 .acm__join-instagram_top img {
+    margin-top: 2rem;
     height: 250px;
     width: auto;
 }
 
 
 .acm__join-discord_top p {
-    color: #182CFF;
-    text-decoration: underline;
+    color: #000000;
 }
 
 .acm__join-instagram_top p {
-    color: #FF424E;
-    text-decoration: underline;
+    color: #000000;
 }
 
 .acm__join-discord_top,
@@ -55,7 +54,8 @@
     flex-direction: column;
     font-family: var(--font-family);
     font-weight: 500;
-    font-size: 24px;
+    font-size: 34px;
+    text-align: center;
     align-items: center;
     gap: 2rem;
     cursor: pointer;
@@ -92,15 +92,15 @@
 .acm__join-instagram_bottom-sect p:first-of-type {
     font-family: var(--font-family);
     font-weight: 600;
-    font-size: 30px;
-    margin-bottom: 0.5rem;
+    font-size: 45px;
+    margin-bottom: 1.5rem;
 }
 
 .acm__join-discord_bottom-sect p:nth-of-type(2),
 .acm__join-instagram_bottom-sect p:nth-of-type(2) {
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 @media screen and (max-width: 900px) {

@@ -9,9 +9,6 @@ const App = () => {
         <Navbar />
         <Header />
         <Join />
-        <About />
-        <Meetings />
-        <Events />
         <Team />
         <Contact />
         <Footer />

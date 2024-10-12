@@ -15,7 +15,7 @@
 }
 
 .acm__navbar-logo img {
-    width: 68px;
+    width: 130px;
     height: 30.9px;
 }
 
@@ -29,7 +29,7 @@
 .acm__navbar-links a,
 .acm__navbar-menu_drop-down div a {
     font-family: var(--font-family);
-    font-weight: 700;
+    font-weight: 400;
     font-size: 1.5rem;
 }
 

@@ -5,7 +5,7 @@
 } 
 
 .acm__team-title {
-    color: #aa00ff;
+    color: #000000;
     font-family: var(--font-family);
     font-weight: 700;
     font-size: var(--heading-font-size);
@@ -23,6 +23,9 @@
     flex-direction: column;
     align-items: center;
     margin: 2rem;
+    gap: 2rem;
+    background-color: #F7F7F7;
+    padding: 25px;
 }
 
 .acm__team-container_panel-image img {
@@ -31,7 +34,7 @@
 }
 
 .acm__team-container_panel-name {
-    color: #aa00ff;
+    color: #000000;
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 20px;

@@ -9,12 +9,12 @@ const Contact = () => {
     <div className='acm__contact section__padding'>
         <div className='acm__contact-header' id='Contact'>
             <p>Contact Us</p>
-            <p>Got questions or feedback about ACM? Let us know your thoughts.</p>
+            <p>Want to talk solutions? Send us a message!</p>
         </div>
         <div className='acm__contact-body'>
             <div className='acm__contact-body_email'>
                 <IoMailOpenOutline size={45}/>
-                <p>SOACM@mailbox.sc.edu</p>
+                <p>SHAUGHNT@email.sc.edu</p>
             </div>
             <div className='acm__contact-body_location'>
                 <FaLocationDot size={45}/>
